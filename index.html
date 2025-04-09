@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eyvaz Cəfərov - CV</title>
+  <!-- CSS Faylı -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts (İstəyə görə) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Səbət şəkilli background animasiyası (Arxa plandakı dairələr) -->
+  <div class="animated-bg"></div>
+  
+  <!-- Ümumi konteyner -->
+  <div class="cv-container">
+    <!-- Şəxsi məlumatlar və başlıq hissəsi -->
+    <aside class="sidebar">
+      <div class="profile-pic">
+        <img src="img/profile.jpg" alt="Profil Şəkli" />
+      </div>
+      <h1 class="name">Eyvaz Cəfərov</h1>
+      <p class="position">Developer</p>
+      <p class="about">
+        2018-ci ildən proqramlaşdırma sahəsində fəaliyyət göstərirəm. Fərqli istiqamətlərdə <strong>back-end</strong> və <strong>front-end</strong> layihələrdə iştirak etmiş, geniş miqyaslı sistemlərin qurulmasında və inteqrasiyasında rol oynamışam.
+      </p>
+      <ul class="contact-info">
+        <li><strong>Telefon:</strong> +994 (515) 643-22-90</li>
+        <li><strong>Email:</strong> <a href="mailto:[email protected]">[email protected]</a></li>
+        <li><strong>Ünvan:</strong> Bakı / Azərbaycan</li>
+      </ul>
+      <div class="skills">
+        <h2>Biliklər</h2>
+        <div class="skill-item">
+          <span>Web Development</span>
+          <div class="skill-bar">
+            <div class="filled" style="width: 95%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span>Flutter</span>
+          <div class="skill-bar">
+            <div class="filled" style="width: 92%;"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span>PS, Figma</span>
+          <div class="skill-bar">
+            <div class="filled" style="width: 90%;"></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Məzmun hissəsi -->
+    <main class="main-content">
+      <!-- Təhsil bölməsi -->
+      <section id="education" class="section">
+        <h2>Təhsil</h2>
+        <div class="section-content">
+          <div class="timeline-item">
+            <h3>Azərbaycan Texniki Universiteti (2017 - 2021)</h3>
+            <p>Çoxillik, paralel olaraq, proqramlaşdırma sahəsində təcrübə qazanmaq üçün müxtəlif layihələrdə iştirak etmişəm.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Azərbaycan Texniki Universiteti (2021 - 2023)</h3>
+            <p>Şəbəkə mühəndisliyi magistr</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Təcrübə bölməsi -->
+      <section id="experience" class="section">
+        <h2>İş Təcrübəsi</h2>
+        <div class="section-content">
+          <div class="timeline-item">
+            <h3>Beglobe Agency (2020.05 - 2020.09)</h3>
+            <p>Müxtəlif veb layihələrin hazırlanması və optimizasiyası.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Globalmart Group (2022.04 - hal-hazırda)</h3>
+            <p>eCommerce saytlarının hazırlanması və idarəedilməsi.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Layihələr bölməsi -->
+      <section id="projects" class="section">
+        <h2>Layihələr</h2>
+        <div class="section-content project-grid">
+          <!-- Hər layihəyə bir kart -->
+          <div class="project-card">
+            <h3>Venta</h3>
+            <p>
+              İşə düzəltmə şirkəti olub, daxildə HR, maliyyə, tədbir, təlim, whatsapp, sms, faq, reception, ticket, qr kod, file transfer, task, otaq bron, mobil tətbiq kimi böyük modulları özündə cəmləyən layihə.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Enverson</h3>
+            <p>
+              Onlayn və daxili kurs sisteminə malik böyük layihə. Dərs, material, imtahan, maliyyə, görüntülü danışıq (combo), süni intellekt analizi kimi geniş modulları var.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Digitalexam</h3>
+            <p>
+              Pullu və pulsuz imtahanların satışına, digər şirkətlərin də imtahan paylaşmasına imkan verən, subdomain-lərlə idarə panelləri avtomatik yaradan imtahan sistemi.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>kredit.bilanco.az</h3>
+            <p>
+              AKB-yə sorğu göndərən, link yaradaraq ödəniş haqqında müştərilərə kredit verilməsinə şərait yaradan, ödənişlərin izlənilməsi üçün avtomatlaşdırılmış idarə paneli.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>alfahealing.com</h3>
+            <p>
+              Meditasiya və sağlamlıq dərslərinin satışı, bloqlar, onlayn ödəniş funksiyaları ilə hazırlanmış vebsayt.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>anthill.center</h3>
+            <p>
+              Şirkətin məhsul və xidmətlərini onlayn nümayiş etdirən, qeydiyyatdan keçmiş istifadəçilərin suallarını “yazışma bölümü” vasitəsilə yönləndirdiyi platforma.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>mebaks</h3>
+            <p>
+              Mebel məhsullarının satışı üçün nəzərdə tutulmuş mobil tətbiq. iOS hissəsini hazırlamışam.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>mhmsinaq.az</h3>
+            <p>
+              Digitalexam tərzində sınaq layihəsi. Çeşidli sual tipləri, böyük verilənlər bazası, köhnə dizayna baxmayaraq güclü idarəetmə strukturu.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>samgroup.az</h3>
+            <p>
+              Maşın hissələrinin topdan satışını idarə edən sistem. Partnyorlar üçün şəxsi giriş, sifariş, anbar, qazanc və xərc idarəsi kimi funksionallıqlar.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Yoldash</h3>
+            <p>
+              Uzaq və yaxın məsafələrdə yol maşınları ilə səyahət, müştəri və sürücülər üçün ayrıca panellər, çat, onlayn zəng, nağd/online ödəniş sistemləri.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Artvarium</h3>
+            <p>
+              Ev heyvanları və bitkilərin satışı üçün onlayn mağaza. Çatdırılma üsulları, bonus sistemi, heyvan sahibləndirmə modulu və s.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Ripschool.az</h3>
+            <p>
+              Kurs təqdimat saytı, xidmətə sorğu göndərmək və bloq modulları mövcuddur.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>İşgəncəmərkəz</h3>
+            <p>
+              Dövlət üçün qrant layihəsi, kiçik tipli sosial portal. Xəbər, hesabat, tədbir modulları vardır.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>AzerbaijanExperts, Chinamotors, ParadiseEvents, İrs, JJPro, NuhaGroup, Globalmart.az</h3>
+            <p>
+              Kiçik tipli, infografik tipli veb layihələr. Şirkətlər və ya təşkilatlar üçün tanıtım funksiyasını daşıyır.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>gallcogroup.az</h3>
+            <p>
+              Holding şirkətləri haqqında vizitka tipli vebsayt. Hər səhifədə bir alt-şirkət barədə məlumat təqdim edilir.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Tid.az, easyedu.az, kuponum.az, organiksatinal.az, newhouse.az, binaemlak.az, propws.com, tik.az, mathx.az, ework.az</h3>
+            <p>
+              Orta ölçülü, müxtəlif sahələrə yönəlik layihələr. Bəziləri hal-hazırda aktiv deyil, bəziləri isə API inteqrasiyası, onlayn ödəniş, imtahan sistemi, kupon satışı, elan saytı kimi funksiyalara malik olub.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>lokano.az</h3>
+            <p>
+              2020-2025 arası dizaynı hazırladığımız, 2025-dən sonra isə dizaynın yeniləndiyi, lakin admin panel və databazası əvvəlki versiyada qalan bir layihə.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Kafe Buxta</h3>
+            <p>
+              Pos cihaz və pos terminal sistemi. Satış, anbar, işçi və maaş idarəsi kimi funksiyalara sahibdir.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- JS Faylı -->
+  <script src="script.js"></script>
+</body>
+</html>
